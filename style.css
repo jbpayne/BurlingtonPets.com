@@ -75,6 +75,7 @@ a:hover {
   padding-top: 100px;
   height: 385px;
   background-image: url(fallsale.jpg);
+  background-position-y: -2px;
 }
 
 #sale a {
@@ -346,6 +347,15 @@ a:hover {
   background-image: url(dog/food.jpg);
   background-repeat: no-repeat;
   background-position-y: -50px;
+  color: #000;
+  text-shadow: #F0F0F0 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#dogfoodpage #title, #dogfoodpage #blurb {
+  color: #222;
+  text-shadow: #F0F0F0 0px 0px 4px;
+  -webkit-font-smoothing: antialiased;
 }
 
 #dogcessoriespage {
